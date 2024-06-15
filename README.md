@@ -4,7 +4,10 @@
 
 ## Envio de Relatório por Email
 
-O Power BI disponibiliza um envio de relatório já integrado ao workspace. Porém, o email que chega para as pessoas contém muitas informações e muitas vezes cai na caixa de spam, podendo gerar desconfianças dos destinatários em abrir ou até em visualizar o relatório. Com isso, criei um fluxo automatizado que pega o anexo do email enviado para o Power BI na minha caixa de mensagens e envia automaticamente colando apenas a imagem de forma muito mais visual no corpo do email.
+  O Power BI disponibiliza um envio de relatório já integrado ao workspace. Porém, o email que chega para as pessoas contém muitas informações e muitas vezes cai na caixa de spam, podendo gerar desconfianças dos destinatários em abrir ou até em visualizar o relatório. Com isso, criei um fluxo automatizado que pega o anexo do email enviado para o Power BI na minha caixa de mensagens e envia automaticamente colando apenas a imagem de forma muito mais visual no corpo do email.
+  Com isso, esse fluxo resolve esses problemas:
+
+  
 
 Segue passos:
 
@@ -26,7 +29,9 @@ Segue passos:
   Após chegar no seu email, na pasta que criou chamada POWERBI, salve o anexo .png.
   Crie uma pasta de trabalho no seu computador e coloque o aquivo salvado nela.
 
-  ![image](https://github.com/Josevinicius42/Projeto_PowerAutomate/assets/144733214/caa03b37-ddbc-43d3-8d4b-4cba69655c11)
+     ![image](https://github.com/Josevinicius42/Projeto_PowerAutomate/assets/144733214/caa03b37-ddbc-43d3-8d4b-4cba69655c11)
+
+### 3º Passo: 1º Fluxo no Automate
 
   
 
