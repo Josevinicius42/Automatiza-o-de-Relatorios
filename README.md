@@ -19,6 +19,14 @@ Segue passos:
   No seu email, crie uma regra para todos os emails que vier do PowerBI, ser redirecionado para essa nova pasta que criou.
 
   ![image](https://github.com/Josevinicius42/Projeto_PowerAutomate/assets/144733214/facaa2f9-391e-49af-8899-8adceec0a4d2)
+  
+### 3º Passo: Faça o teste de envio
+
+  Vá no seu relatorio do powerbi, selecione em "Assinar o relatorio". Crie uma assinatura e envie para seu email.
+  Após chegar no seu email, na pasta que criou chamada POWERBI, salve o anexo .png.
+  Crie uma pasta de trabalho no seu computador e coloque o aquivo salvado nela.
+
+  ![image](https://github.com/Josevinicius42/Projeto_PowerAutomate/assets/144733214/caa03b37-ddbc-43d3-8d4b-4cba69655c11)
 
   
 
