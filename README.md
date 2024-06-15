@@ -8,4 +8,17 @@ O Power BI disponibiliza um envio de relatório já integrado ao workspace. Por�
 
 Segue passos:
 
-### 1º Fluxo: "Quando um novo email é Recebido (V3)"
+### 1º Passo: Crie uma nova pasta no email
+
+  No seu email, voce vai criar uma pasta com o nome que desejar. Aqui, botei o nome como "POWERBI"
+  
+  ![image](https://github.com/Josevinicius42/Projeto_PowerAutomate/assets/144733214/e3791164-9192-4cf9-a6d9-3488800aeba8)
+
+### 2º Passo: Crie uma regra
+
+  No seu email, crie uma regra para todos os emails que vier do PowerBI, ser redirecionado para essa nova pasta que criou.
+
+  ![image](https://github.com/Josevinicius42/Projeto_PowerAutomate/assets/144733214/facaa2f9-391e-49af-8899-8adceec0a4d2)
+
+  
+
