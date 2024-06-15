@@ -1,0 +1,9 @@
+# Automatização de Processos - Power Automate
+
+## Envio de Relatório por Email
+
+O Power BI disponibiliza um envio de relatório já integrado ao workspace. Porém, o email que chega para as pessoas contém muitas informações e muitas vezes cai na caixa de spam, podendo gerar desconfianças dos destinatários em abrir ou até em visualizar o relatório. Com isso, criei um fluxo automatizado que pega o anexo do email enviado para o Power BI na minha caixa de mensagens e envia automaticamente colando apenas a imagem de forma muito mais visual no corpo do email.
+
+Segue passos:
+
+### 1º Fluxo: "Quando um novo email é Recebido (V3)"
