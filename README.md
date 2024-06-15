@@ -57,11 +57,58 @@ Segue passos:
 
  ![image](https://github.com/Josevinicius42/Projeto_PowerAutomate/assets/144733214/e3c6c2f3-4bab-4d07-9a30-411379e5fdc7)
 
+### 5º Passo: "Atualizar Arquivo"
+
  Após isso, dentro do mesmo fluxo "FOR EACH", selecione o fluxo "Atualizar Arquivo". Na parte de "Arquivo" coloque o caminho da pasta que salvou a imagem em .PNG e selecione "Bytes de Conteudo" na parte de Conteudo do Arquivo.
 
  **Com esse passo, voce esta informando que sempre que receber o email do PBI, deverá substituir a imagem salva sempre com o ultimo email enviado.**
 
 ![image](https://github.com/Josevinicius42/Projeto_PowerAutomate/assets/144733214/4ace3345-8f64-4248-86b5-e3612ebd5d32)
+
+### 7º Passo: "Atualizar Arquivo"
+
+![image](https://github.com/Josevinicius42/Projeto_PowerAutomate/assets/144733214/05546fb4-0fbe-42f2-ae7c-2f34f072c100)
+
+  No proximo passo, "caminho do arquivo" selecione na pasta de trabalho, o aquivo png. 
+
+  ![image](https://github.com/Josevinicius42/Projeto_PowerAutomate/assets/144733214/830409c1-9dca-47a3-a4a4-6affb68782e8)
+
+  **OBS: Após o passo anterior voce manter sempre atualizado o arquivo png, nesse passo voce seleciona o arquivo para depois enviar por email**
+
+  ### 8º Passo: "Variavel" -> "Inicializar Variável"
+
+  ![image](https://github.com/Josevinicius42/Projeto_PowerAutomate/assets/144733214/4c98d364-5648-4cf4-907c-44a35c4a88c8)
+
+  Em "name", coloque o nome "ImagemURL". No campo "Type" coloque "Compo de Texto" ou "String". E na parte de "VALUE", escreva na função ".$content" e coloque a barra de escrita antes do ponto e selecione "Conteudo do aquivo"
+
+  ![image](https://github.com/Josevinicius42/Projeto_PowerAutomate/assets/144733214/3de2d67f-8fe3-4c86-8f5e-e8ba2a04eb52)
+
+  **Esse passo serve para concatenar o "Conteudo do arquivo" com ".$content"**
+
+  ### 9º Passo: "Enviar um email (V2)"
+
+  ![image](https://github.com/Josevinicius42/Projeto_PowerAutomate/assets/144733214/f5fc6e89-2ebd-4ce1-b31b-7edbdb2d2103)
+
+  Nesse passo, selecione os emails para que deseja que seja enviado, titulo e a mensagem no corpo do email.
+
+  ![image](https://github.com/Josevinicius42/Projeto_PowerAutomate/assets/144733214/c9a7529b-e442-4782-8cb3-1c05d966e2d4)
+
+  No testo do corpo do email:
+    
+        <p>
+                    TEXTO PARA CORPO DO EMAIL
+                    <b>
+        </b></b></b></b></b></b></p><b><b><b>
+                     <p style="text-align:center"><img alt="base64 test" src="data:image/jpeg;base64,INSIRA IMAGEM AQUI"></p>
+          
+</b></b></b></b></b>
+
+  
+**Selecione a variavel IMAGEM, e coloque depois da virgula**
+
+Fim, agora é so enviar o relatorio que sera enviado a imagem no corpo do email para quem quiser
+
+
 
   
 
